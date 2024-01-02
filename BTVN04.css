@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-sizing: border-box;
+}
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 30px gray;
+    margin: 50px;
+}
+.box p{
+    margin: 10px;
+}
+.box h4{
+    margin: 10px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-sizing: border-box;
+}
+.effect {
+    background-color: white;
+    width: 300px;
+}
+
+.back1:hover + .effect,
+.back2:hover + .effect,
+.back3:hover + .effect {
+    background-color: aqua;
+}
+
+.effect:hover {
+    background-color: aqua;
+}
+
+.back1,
+.back2,
+.back3 {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.back1 {
+    background-color: rgb(0, 213, 255);
+}
+
+.back2 {
+    background-color: burlywood;
+    border-radius: 40%;
+}
+
+.back3 {
+    background-color: orange;
+    border-radius: 50%;
+}

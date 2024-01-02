@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .back {
+        width: 100%;
+        background-color: gainsboro;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .back span {
+        display: inline-block;
+        animation: marquee 8s linear infinite;
+    }
+    
+    @keyframes marquee {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+</style>
+<body>
+    <div class="back"><span>Dòng chữ chạy</span></div>
+</body>
+</html>
